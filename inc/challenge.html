@@ -1,0 +1,35 @@
+<script>
+		$(function () {
+			$('#content .obstacle').hide();
+			//Jake's addition. Display first active block
+			var contentToLoad = $('a.active').attr('href');
+			$(contentToLoad).show();
+
+
+
+			$('#icons a').click(function () 
+			{
+				if ($(this).hasClass('active') == true) 
+				{
+					return false;
+				} 
+				else 
+				{
+					$('a.active').removeClass('active');
+					$(this).addClass('active');
+
+					$('#content .obstacle').fadeOut();
+					var contentToLoad = $(this).attr('href');
+					$(contentToLoad).fadeIn();
+
+					return false;
+				}
+			});
+			
+			$('#content a.close').click(function () {
+				$('#content .obstacle').fadeOut();
+				$('a.active').removeClass('active');
+			});
+		});
+	</script>
+	
