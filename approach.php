@@ -229,7 +229,7 @@
 					<p>
 						Find out how working with local school districts, business leaders
 						and parents can transform at-risk students nad their communities
-					</p><p><a class="blue-font" href="centers.html">Learn about OUR RESOURCE CENTERS</a></p>
+					</p><p><a class="blue-font" href="centers.php">Learn about OUR RESOURCE CENTERS</a></p>
 				</div>
 			</div>
 <?php include ('inc/footer.php'); ?>

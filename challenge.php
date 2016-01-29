@@ -278,7 +278,7 @@
 						Solving the dropout epidemic takes more than hard
 						work and caring— it requires a complete new way of
 						addressing the problem.
-					</p><p><a class="blue-font" href="approach.html">Learn about OUR APPROACH</a></p>
+					</p><p><a class="blue-font" href="approach.php">Learn about OUR APPROACH</a></p>
 				</div>
 			</div> <!-- /row -->
 <?php include('inc/footer.php'); ?>

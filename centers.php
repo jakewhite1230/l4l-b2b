@@ -193,7 +193,7 @@
 						Helping at-risk students and dropouts reach an
 						impressive 86% graduation rate has a ripple effect 
 						that makes a better California for us all.
-						</p><p><a class="blue-font" href="impact.html">Learn about OUR IMPACT</a></p>
+						</p><p><a class="blue-font" href="impact.php">Learn about OUR IMPACT</a></p>
 				</div>
 				<div class="col-md-4 col-sm-6 highlight text-right"></div>
 				<div class="col-md-4 col-sm-6 highlight text-right"></div>

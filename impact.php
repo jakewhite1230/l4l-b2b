@@ -145,7 +145,7 @@
 					<p>
 						Step into the world of our students' struggles and triumphs, and
 						learn more about their journey to success.
-						</p><p><a class="blue-font" href="stories.html">Learn about STUDENT STORIES</a>
+						</p><p><a class="blue-font" href="stories.php">Learn about STUDENT STORIES</a>
 					</p>
 				
 				</div>
