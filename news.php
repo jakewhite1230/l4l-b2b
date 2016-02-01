@@ -7,8 +7,8 @@
 						<p>
 							With a rapidly growing network of Resource Centers, and the momentum that comes from 
 							creating real success for local communities, Learn4Life is making headlines. Check back 
-							often or subscribe to our feed for the latest news. For press inquiries, call XXX-XXXX 
-							or email xxxxxx@learn4life.org.
+							often or subscribe to our feed for the latest news. For press inquiries, call 661-272-1225 
+							or email info@learnfourlife.com
 						</p>
 					</div>
 				</div>
