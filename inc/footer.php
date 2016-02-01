@@ -39,7 +39,8 @@
 						<h3 class="widget-title">Follow Us</h3>
 						<div class="widget-body">
 							<p class="follow-me-icons">
-								<a href="https://www.youtube.com/channel/UCi7lF_oTI7HGwxTkC-qgdvQ" target="_blank"><i class="fa fa-youtube fa-2"></i></a>
+								<a href="https://youtube.com/channel/UCi7lF_oTI7HGwxTkC-qgdvQ" target="_blank"><i class="fa fa-youtube fa-2"></i></a>
+								<a href="https://facebook.com/learn4lifeschools" target="_blank"><i class="fa fa-facebook fa-2"></i></a>
 							</p>	
 						</div>
 					</div>
