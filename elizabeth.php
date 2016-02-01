@@ -2,6 +2,10 @@
 
 			<div class="row">
 				<div class="col-md-12 col-sm-6 highlight">
+				<ol class="breadcrumb">
+				  <li><a href="stories.php">Stories</a></li>
+				  <li class="active">Elizabeth</li>
+				</ol>
 					<h4><B>ELIZABETH'S STORY</B></h4>
 					<div class="h-body">
 						<p>
@@ -82,19 +86,33 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-6 highlight text-right"></div>
-				<div class="col-md-4 col-sm-6 highlight text-right">
-					<h4><B></B></h4>
-					<div class="h-body">
-						<h4 class="blue-font"><B>ALAN'S STORY</B></h4>
-						<p>
-							Hanging out with gangs, living on the streets made education seem irrelevant 
-							compared to his own survival. He didn't see a future for himself, but that was
-							about to change.
-						</p><p><a class="blue-font" href="alan.php">View ALAN'S STORY</a></p>
-					</div>
-				</div> <!-- /row  -->
 			</div> <!-- /row  -->
+
+			<div class="row bottom-row">
+					<div class="col-md-4 col-sm-6 col-xs-12 source-button pull-left">
+						<a href="#" class="blue-font" id="source">Sources</a>
+					</div>
+					<div id="sourceContent" style="display:none;">
+						<?php include('inc/sources/elizabeth-sources.html'); ?>
+					</div>
+
+					<div class="col-md-4 col-sm-6 highlight pull-right text-right">
+						<h4><B></B></h4>
+						<div class="h-body">
+							<h4 class="blue-font"><B>ALAN'S STORY</B></h4>
+							<p>
+								Hanging out with gangs, living on the streets made education seem irrelevant 
+								compared to his own survival. He didn't see a future for himself, but that was
+								about to change.
+							</p><p><a class="blue-font" href="alan.php"><b>View ALAN'S STORY</b></a></p>
+					</div>
+			</div>
+			</div>
 			
 <?php include('inc/footer.php'); ?>
+<script type="text/javascript">
+	$('#source').webuiPopover({
+		url:'#sourceContent'
+	});
+</script>
 

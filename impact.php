@@ -136,18 +136,36 @@
 						</div>
 					</p>
 				</div>
-				
-				<div class="col-md-4 col-sm-6 highlight text-left"></div>
-				<div class="col-md-4 col-sm-6 highlight text-right"></div>
-				<div class="col-md-4 col-sm-6 highlight text-right">
-				
-					<h4 class="blue-font"><B>IN THEIR OWN WORDS</B></h4>
-					<p>
-						Step into the world of our students' struggles and triumphs, and
-						learn more about their journey to success.
-						</p><p><a class="blue-font" href="stories.php">Learn about STUDENT STORIES</a>
-					</p>
-				
-				</div>
 			</div>
+
+
+<div class="row bottom-row">
+					<div class="col-md-4 col-sm-6 col-xs-12 source-button pull-left">
+						<a href="#" class="blue-font" id="source">Sources</a>
+					</div>
+					<div id="sourceContent" style="display:none;">
+						<?php include('inc/sources/impact-sources.html'); ?>
+					</div>
+					<div class="col-md-4 col-sm-6 highlight text-right pull-right">
+						
+							<h4 class="blue-font"><B>IN THEIR OWN WORDS</B></h4>
+							<p>
+								Step into the world of our students' struggles and triumphs, and
+								learn more about their journey to success.
+								</p><p><a class="blue-font" href="stories.php"><b>Learn about STUDENT STORIES</b></a>
+							</p>
+						
+					</div>
+</div>
+
+
+
+
+
+
 <?php include ('inc/footer.php'); ?>
+<script type="text/javascript">
+	$('#source').webuiPopover({
+		url:'#sourceContent'
+	});
+</script>

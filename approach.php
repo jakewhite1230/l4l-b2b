@@ -1,7 +1,7 @@
 ﻿<?php include ('inc/header.php'); ?>
 			
 			<div class="row">
-				<div class="col-md-6 col-sm-6 highlight">
+				<div class="col-md-6 col-xs-12 highlight">
 					<h4><B>OUR APPROACH</B></h4>
 					<div class="h-body">
 						<p>
@@ -36,14 +36,14 @@
 						<p>
 							“I didn’t think I would graduate after having my baby. At Learn4Life, my teacher let me bring 
 							my daughter to school and motivated me to create a better life for her.”
-						</p><p><a href="about.html">See Elizabeth's story</a></p>
+						</p><p><a href="elizabeth.php"><b>See Elizabeth's story</b></a></p>
 					</div>
 				</div>
 			
 			</div> <!-- /row  -->
 			
 			<div class="row" >
-				<div class="col-md-12 col-sm-6 highlight">
+				<div class="col-md-12 col-xs-12 highlight">
 					<h4><B>REMOVING EVERY OBSTACLE</B></h4>
 					<p>
 						We take the time to get to know each student, and then tailor his or her educational experience for 
@@ -66,7 +66,7 @@
 				
 				<!-- OBSTACLE 2 -->
 				<div class="col-md-3 col-sm-6 highlight text-left">
-					<img src="./assets/images/diploma.jpg" width=100%">
+					<img src="./assets/images/diploma.jpg" width="100%">
 					<h4><B>ONE-ON-ONE ATTENTION</B></h4>
 					<div class="h-body">
 						<p>
@@ -78,7 +78,7 @@
 				
 				<!-- OBSTACLE 3 -->
 				<div class="col-md-3 col-sm-6 highlight text-left">
-					<img src="./assets/images/flexible.jpg" width=100%">
+					<img src="./assets/images/flexible.jpg" width="100%">
 					<h4><B>FLEXIBILITY</B></h4>
 					<div class="h-body">
 						<p>
@@ -100,7 +100,7 @@
 					</div>
 				</div>
 				
-				<div class="col-md-12 col-sm-6 highlight">
+				<div class="col-md-12 col-xs-12 highlight">
 					<h4><B>LIFE AFTER GRADUATION</B></h4>
 					<p>
 						Students achieving a high school diploma puts students on a path out of poverty, crime and joblessness, 
@@ -114,7 +114,7 @@
 			</div> <!-- /row  -->
 			
 			<div class="row">
-				<div class="col-md-6 col-sm-6 highlight">
+				<div class="col-md-6 col-xs-12 highlight">
 					<h4><B>CAREER TECHNICAL EDUCATION (CTE)</B></h4>
 					<div class="h-body">
 						<p>
@@ -152,19 +152,16 @@
 					</div>
 					
 				</div>
-	
-				
-				<div class="col-md-3 col-sm-6 highlight text-left well">
+
+				<div class="col-xs-12 col-sm-6 col-md-3 well">
 					<h4><b>DANIEL</b>, AGE 18</h4>
-					<div class="h-body ">
-						<p>“Because of the Cisco Lab at Learn4Life, I can get a salaried IT job, right out of high school."
-						</p><p><a href="about.html">See Daniel's story</a></p>
-					</div>
+					<p>"Because of the Cisco Lab at Learn4Life, I can get a salaried IT job, right out of high school."</p>
+					<a class="blue-font" href="daniel.php"><b>See Daniel's Story</b></a>
 				</div>
-				
-				<div class="col-md-3 col-sm-6 highlight text-left">
-					<img src="./assets/images/daniel.jpg">
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<img src="assets/images/daniel.jpg">
 				</div>
+			
 				
 				
 			
@@ -173,7 +170,7 @@
 			
 			<div class="row">
 			
-				<div class="col-md-12 col-sm-6 highlight">
+				<div class="col-md-12 col-xs-12 highlight">
 					<h4><B>PREPARING FOR THE FUTURE</B></h4>
 					<p>
 						<div class="col-md-6 col-sm-6 highlight">
@@ -196,7 +193,7 @@
 							</div>
 						</div>
 						
-						<div class="col-md-2 col-sm-6 highlight" style="background-color: #fdfdfd;">
+						<div class="col-md-2 col-xs-12 highlight" style="background-color: #fdfdfd;">
 							<h4><b>Makerspace</b></h4>
 							<div class="h-body ">
 								<p>
@@ -208,8 +205,8 @@
 							</div>
 						</div>
 						
-						<div class="col-md-2 col-sm-6 highlight" >
-							<h4><b>Softskills</b></h4>
+						<div class="col-md-2 col-xs-12 highlight" >
+							<h4><b>Professional Skills</b></h4>
 							<div class="h-body ">
 								<p>
 									In this course, we teach the essentials of workplace communication 
@@ -221,15 +218,26 @@
 						</div>
 					</p>
 				</div>
-				
-				<div class="col-md-4 col-sm-6 highlight text-right"></div>
-				<div class="col-md-4 col-sm-6 highlight text-right"></div>
-				<div class="col-md-4 col-sm-6 highlight text-right">
+				</div>
+			<div class="row bottom-row">
+				<div class="col-md-4 col-sm-6 col-xs-12 source-button pull-left">
+					<a href="#" class="blue-font" id="source">Sources</a>
+				</div>
+				<div id="sourceContent" style="display:none;">
+					<?php include('inc/sources/approach-sources.html'); ?>
+				</div>
+
+				<div class="col-md-4 col-sm-6 highlight text-right pull-right">
 					<h4 class="blue-font"><B>CENTERS OF HOPE</B></h4>
 					<p>
 						Find out how working with local school districts, business leaders
 						and parents can transform at-risk students nad their communities
-					</p><p><a class="blue-font" href="centers.php">Learn about OUR RESOURCE CENTERS</a></p>
+					</p><p><a class="blue-font" href="centers.php"><b>Learn about OUR RESOURCE CENTERS</b></a></p>
 				</div>
 			</div>
 <?php include ('inc/footer.php'); ?>
+<script type="text/javascript">
+	$('#source').webuiPopover({
+		url:'#sourceContent'
+	});
+</script>

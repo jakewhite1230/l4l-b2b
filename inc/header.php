@@ -20,6 +20,7 @@
 
 	<!-- Custom styles for our template -->
 	<link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/jquery.webui-popover.css">
 	<link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/main.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
@@ -57,7 +58,7 @@
 			<div class="navbar-header">
 				<!-- Button for smallest screens -->
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-				<a class="navbar-brand" href="<?php echo BASE_URL; ?>"><img src="<?php echo BASE_URL; ?>assets/images/roseLogo2.png" width="200"></a>
+				<a class="navbar-brand" href="<?php echo BASE_URL; ?>"><img src="<?php echo BASE_URL; ?>assets/images/L4L-white.svg" width="200"></a>
 			</div>
 			
 			<!-------------------------------------

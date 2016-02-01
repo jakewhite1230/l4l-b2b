@@ -25,7 +25,7 @@
 				<div class="row">
 					
 					<div class="col-md-4 widget">
-						<h3 class="widget-title">Contact</h3>
+						<h3 class="widget-title"><a href="contact.php">Contact</a></h3>
 						<div class="widget-body">
 							<p><a href="tel:6612721225">661-272-1225</a><br>
 								<a href="mailto:info@learnfourlife.com">info@learnfourlife.com</a><br>
@@ -39,11 +39,7 @@
 						<h3 class="widget-title">Follow Us</h3>
 						<div class="widget-body">
 							<p class="follow-me-icons">
-								<a href="#"><i class="fa fa-twitter fa-2"></i></a>
-								<a href="#"><i class="fa fa-instagram fa-2"></i></a>
-								<a href="#"><i class="fa fa-facebook fa-2"></i></a>
-								<a href="#"><i class="fa fa-youtube fa-2"></i></a>
-								<a href="#"><i class="fa fa-google fa-2"></i></a>
+								<a href="https://www.youtube.com/channel/UCi7lF_oTI7HGwxTkC-qgdvQ" target="_blank"><i class="fa fa-youtube fa-2"></i></a>
 							</p>	
 						</div>
 					</div>
@@ -70,7 +66,7 @@
 					<div class="col-md-6 widget">
 						<div class="widget-body">
 							<p class="simplenav">
-							<a href="#">Contact Us </a> | 
+							<a href="contact.php">Contact Us </a> | 
 								<a href="#"> Terms of Use </a> | 
 								<a href="#"> Privacy Policy </a>  
 							</p>
@@ -101,6 +97,7 @@
 	<script src="<?php echo BASE_URL; ?>assets/js/jQuery.headroom.min.js"></script>
 	<script src="<?php echo BASE_URL; ?>assets/js/jquery.sticky.js"></script>
 	<script src="<?php echo BASE_URL; ?>assets/js/template.js"></script>
+	<script src="<?php echo BASE_URL; ?>assets/js/jquery.webui-popover.js"></script>
 	<script src="<?php echo BASE_URL; ?>assets/js/main.js"></script>
 </body>
 </html>

@@ -1,7 +1,5 @@
 ﻿<?php include('inc/header.php'); ?>
 			
-			<!--h3 class="text-center thin">Reasons to use this template</h3-->
-			
 			<div class="row">
 				<div class="col-md-4 col-sm-6 highlight">
 					<h4><B>A STRONGER COMMUNITY</B></h4>
@@ -29,7 +27,7 @@
 								dropping out seem inevitable...
 							</p>
 							
-							<p><a href="stories.php" class="blue-font">More Student Stories</a></p>
+							<p><a href="stories.php"><b>More Student Stories</b></a></p>
 						</div>
 					</div>
 					
@@ -50,33 +48,33 @@
 				</div>
 			</div> <!-- /row  -->
 			
-			<div class="row"  id="picture-navigation">
+			<div class="row" id="picture-navigation">
 				<div class="col-md-3 col-sm-6 picture-item">
 					<div class="h-caption"><h4>OUR CHALLENGE</h4></div>
 					<div class="h-body">
 						<p><img src="assets/images/flexible.jpg"></p>
-						<p>With 7,000 dropouts per day in the U.S., our economy and public safety are at risk.</p><p><a href="challenge.php" class="blue-font">Learn More</a></p>
+						<p>With 7,000 dropouts per day in the U.S., our economy and public safety are at risk.</p><p><a class="blue-font" href="challenge.php"><b>Learn More</b></a></p>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 picture-item">
 					<div class="h-caption"><h4>OUR APPROACH</h4></div>
 					<div class="h-body ">
 					<p><img src="assets/images/personalized.jpg"></p>
-						<p>Transforming at-risk students into healthy, productive adults requires a unique approach that instills self-confidence.</p><p><a href="approach.php" class="blue-font">Learn More</a></p>
+						<p>Transforming at-risk students into healthy, productive adults requires a unique approach that instills self-confidence.</p><p><a class="blue-font" href="approach.php"><b>Learn More</b></a></p>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 picture-item">
 					<div class="h-caption"><h4>OUR RESOURCE CENTERS</h4></div>
 					<div class="h-body ">
 					<p><img src="assets/images/skills.jpg"></p>
-						<p>We work with public schools and community leaders to create safer, more prosperous neighborhoods throughout California.</p><p><a href="centers.php" class="blue-font">Learn More</a></p>
+						<p>We work with public schools and community leaders to create safer, more prosperous neighborhoods throughout California.</p><p><a class="blue-font" href="centers.php"><b>Learn More</b></a></p>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 picture-item">
 					<div class="h-caption"><h4>OUR IMPACT</h4></div>
 					<div class="h-body ">
 					<p><img src="assets/images/diploma.jpg"></p>
-						<p>Every dropout saved creates a positive impact that can be felt for generations. It's not just about diplomas, it's about changing their stories... for life.</p><p><a href="impact.php" class="blue-font">Learn More</a></p>
+						<p>Every dropout saved creates a positive impact that can be felt for generations. It's not just about diplomas, it's about changing their stories... for life.</p><p><a class="blue-font" href="impact.php"><b>Learn More</b></a></p>
 					</div>
 				</div>
 			</div> <!-- /row  -->

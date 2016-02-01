@@ -2,6 +2,10 @@
 			
 			<div class="row">
 				<div class="col-md-12 col-sm-6 highlight">
+				<ol class="breadcrumb">
+				  <li><a href="stories.php">Stories</a></li>
+				  <li class="active">Daniel</li>
+				</ol>
 					<h4><B>DANIEL'S STORY</B></h4>
 					<div class="h-body">
 						<p>
@@ -28,7 +32,7 @@
 						it would be any better for me, but I figured I’d try it. I liked that they offered a flexible schedule.”
 						</p>
 						<div class="videoWrapper">
-							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fKS45BAhfxQ?rel=0&amp;showinfo=0" width='100%' height='100%'></iframe>
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WFdBu77yt-c?rel=0&amp;showinfo=0" width='100%' height='100%'></iframe>
 						</div>
 					</div>
 				</div>
@@ -80,19 +84,41 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-6 highlight text-right"></div>
-				<div class="col-md-4 col-sm-6 highlight text-right">
-					<h4><B></B></h4>
+			</div> <!-- /row  -->
+
+		<div class="row bottom-row">
+					<div class="col-md-4 col-sm-6 col-xs-12 source-button pull-left">
+						<a href="#" class="blue-font" id="source">Sources</a>
+					</div>
+					<div id="sourceContent" style="display:none;">
+						<?php include('inc/sources/daniel-sources.html'); ?>
+					</div>
+					<div class="col-md-4 col-sm-6 highlight pull-right text-right">
 					<div class="h-body">
-						<h4 class="blue-font"><B>DASMOND'S STORY</B></h4>
+						<h4><B>DASMOND'S STORY</B></h4>
 						<p>
 							Struggling to catch up in school, Dasmond felt like teachers had
 							given up on him, and he was about to give up, too. It would take
 							a special approach to help him turn it all around.
-						</p><p><a class="blue-font" href="dasmond.php">View DASMOND'S STORY</a></p>
+						</p>
+						<p>
+							<a class="blue-font" href="dasmond.php"><b>View DASMOND'S STORY</b></a>
+						</p>
 					</div>
-				</div> <!-- /row  -->
-			</div> <!-- /row  -->
+				</div>
+		</div>
+
+
+
+
+
+
+
 			
 		</div>
 	<?php include("inc/footer.php");?>
+	<script type="text/javascript">
+	$('#source').webuiPopover({
+		url:'#sourceContent'
+	});
+</script>

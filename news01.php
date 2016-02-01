@@ -8,7 +8,8 @@
 							16 NOV 2015
 						</p>
 							<div class="col-md-8 col-sm-6 highlight">
-							<p>
+							<p class="blue-font news-title">
+							
 							<b>Learn4Life Promotes STEM Disciplines at the SoCal Maker Convention</B>
 							</p>
 							<p>

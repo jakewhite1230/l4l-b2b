@@ -5,7 +5,7 @@
 					<h4><B>OUR RESOURCE CENTERS</B></h4>
 					<div class="h-body">
 						<p>
-							<img src="./assets/images/resource-centers.png">
+							<img src="./assets/images/resource-centers.jpg">
 						</p>
 						<p>
 							When a student walks through the doors of a Learn4Life Resource Center, they are greeted by name 
@@ -56,7 +56,7 @@
 					<h4><b>LEARNING ON THE GO</b></h4>
 					<div class="h-body ">
 						<img src="./assets/images/personalized.jpg" width="100%">
-						<p>
+						<p style="margin-top:15px;">
 							At-risk students in rural areas often have difficulty finding transportation to get to school. 
 							With our Mobile Learning Center, we provide local access to a results-oriented, personalized 
 							educational experience that wouldn’t be possible any other way.
@@ -108,7 +108,7 @@
 							the poverty level³, and many Lancaster students were at risk of dropping out. What started as one 
 							learning center with only 30 students has quickly grown to several, servicing more than 1,300 
 							students per week. The good news: Lancaster’s young adult dropout population has fallen 
-							from 35% to 19%.
+							from 35% to 19%⁴⁵ since we opened our doors.
 						</p>
 					</div>
 				</div>
@@ -186,16 +186,26 @@
 						</div>
 					</p>
 				</div>
-				
-				<div class="col-md-4 col-sm-6 highlight text-left">
-					<h4 class="blue-font"><B>MAKING AN IMPACT</B></h4>
-					<p>
-						Helping at-risk students and dropouts reach an
-						impressive 86% graduation rate has a ripple effect 
-						that makes a better California for us all.
-						</p><p><a class="blue-font" href="impact.php">Learn about OUR IMPACT</a></p>
-				</div>
-				<div class="col-md-4 col-sm-6 highlight text-right"></div>
-				<div class="col-md-4 col-sm-6 highlight text-right"></div>
 			</div>
+				<div class="row bottom-row">
+					<div class="col-md-4 col-sm-6 col-xs-12 source-button pull-left">
+						<a href="#" class="blue-font" id="source">Sources</a>
+					</div>
+					<div id="sourceContent" style="display:none;">
+						<?php include('inc/sources/resource-sources.html'); ?>
+					</div>
+					<div class="col-md-4 col-sm-6 highlight text-right pull-right">
+						<h4 class="blue-font"><B>MAKING AN IMPACT</B></h4>
+						<p>
+							Helping at-risk students and dropouts reach an
+							impressive 86% graduation rate has a ripple effect 
+							that makes a better California for us all.
+							</p><p><a class="blue-font" href="impact.php"><b>Learn about OUR IMPACT</b></a></p>
+					</div>
+				</div>
 <?php include ('inc/footer.php'); ?>
+<script type="text/javascript">
+	$('#source').webuiPopover({
+		url:'#sourceContent'
+	});
+</script>

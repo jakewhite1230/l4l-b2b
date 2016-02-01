@@ -2,6 +2,10 @@
 			
 			<div class="row">
 				<div class="col-md-12 col-sm-6 highlight">
+				<ol class="breadcrumb">
+				  <li><a href="stories.php">Stories</a></li>
+				  <li class="active">Dasmond</li>
+				</ol>
 					<h4><B>DASMOND'S STORY</B></h4>
 					<div class="h-body">
 						<p>
@@ -28,7 +32,7 @@
 						out on the streets, up to no good. I was probably going to end up in jail.”
 						</p>
 						<div class="videoWrapper">
-							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fKS45BAhfxQ?rel=0&amp;showinfo=0" width='100%' height='100%'></iframe>
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oJaxfl2LVyQ?rel=0&amp;showinfo=0" width='100%' height='100%'></iframe>
 						</div>
 					</div>
 				</div>
@@ -80,19 +84,36 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-6 highlight text-right"></div>
-				<div class="col-md-4 col-sm-6 highlight text-right">
+			</div> <!-- /row  -->
+
+	<div class="row bottom-row">
+					<div class="col-md-4 col-sm-6 col-xs-12 source-button pull-left">
+						<a href="#" class="blue-font" id="source">Sources</a>
+					</div>
+					<div id="sourceContent" style="display:none;">
+						<?php include('inc/sources/dasmond-sources.html'); ?>
+					</div>
+					<div class="col-md-4 col-sm-6 highlight pull-right text-right">
 					<h4><B></B></h4>
 					<div class="h-body">
-						<h4 class="blue-font"><B>ELIZABETH'S STORY</B></h4>
+						<h4><B>ELIZABETH'S STORY</B></h4>
 						<p>
 							Getting pregnant at age 14 meant months away from school and a
 							host of new responsabilities. Catching up with her class while
 							being a mom seemed hopeless, until she came to Learn4Life
-						</p><p><a class="blue-font" href="elizabeth.php">View ELIZABETH'S STORY</a></p>
+						</p><p><a class="blue-font" href="elizabeth.php"><b>View ELIZABETH'S STORY</b></a></p>
 					</div>
-				</div> <!-- /row  -->
-			</div> <!-- /row  -->
+				</div>
+		</div>
+
+
+
+
 
 <?php include("inc/footer.php");?>
+<script type="text/javascript">
+	$('#source').webuiPopover({
+		url:'#sourceContent'
+	});
+</script>
 			

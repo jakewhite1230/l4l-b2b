@@ -41,6 +41,33 @@ img{
 	}
 }
 
+.bottom-row{
+	position: relative;
+	height: 175px;
+}
+
+
+.source-button{
+	position: absolute;
+	bottom: 10px;
+	font-weight: 700;
+	font-size: 1.3em;
+}
+
+@media(max-width: 767px){
+	.source-button{
+	position: relative;
+	bottom: 0px;
+	font-weight: 700;
+	font-size: 1.3em;
+	text-align: center;
+	}
+
+	.webui-popover{
+		left: 0px !important;
+	}
+}
+
 
 /* Video Wrapper */ 
 /*****************/

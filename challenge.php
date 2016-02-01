@@ -30,7 +30,7 @@
 					<h3><B>SECONDS</B></h3>
 					<div class="h-body">
 						<p>
-							a student drops out of high school in the U.S.
+							a student drops out of high school in the U.S¹.
 						</p>
 					</div>
 				</div>
@@ -177,7 +177,7 @@
 									Trouble with reading made learning a constant struggle — and he was on the verge of dropping out…
 									</p><p><a href="dasmond.php" class="blue-font">See Dasmond's story</a></p>
 								</div>
-								<div class="col-xs-12 col-sm-3 statement"><i><h3>"Fewer than 9% of students learn in the same way"</h3></i></div>
+								<div class="col-xs-12 col-sm-3 statement"><i><h3>"Fewer than 9% of students learn in the same way¹³"</h3></i></div>
 						
 					</div>
 					
@@ -269,16 +269,27 @@
 				<hr>
 			</div>
 			
-			<div class="row">
-				<div class="col-md-4 col-sm-6 highlight text-right"></div>
-				<div class="col-md-4 col-sm-6 highlight text-right"></div>
-				<div class="col-md-4 col-sm-6 highlight text-right">
+			<div class="row bottom-row">
+				<div class="col-md-4 col-sm-6 col-xs-12 source-button pull-left">
+					<a href="#" class="blue-font" id="source">Sources</a>
+				</div>
+				<div id="sourceContent" style="display:none;">
+					<?php include('inc/sources/challenge-sources.html'); ?>
+				</div>
+			
+			<div class="col-md-4 col-sm-6 col-xs-12 highlight text-right pull-right">
 					<h4 class="blue-font"><B>CHANGING THE STORY</B></h4>
 					<p>
 						Solving the dropout epidemic takes more than hard
 						work and caring— it requires a complete new way of
 						addressing the problem.
-					</p><p><a class="blue-font" href="approach.php">Learn about OUR APPROACH</a></p>
+					</p><p><a class="blue-font" href="approach.php"><b>Learn about OUR APPROACH</b></a></p>
 				</div>
 			</div> <!-- /row -->
 <?php include('inc/footer.php'); ?>
+
+<script type="text/javascript">
+	$('#source').webuiPopover({
+		url:'#sourceContent'
+	});
+</script>

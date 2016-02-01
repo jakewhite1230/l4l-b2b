@@ -29,7 +29,7 @@
 									responsibilities. Catching up with her class while being a mom seemed hopeless, 
 									until she came to Learn4Life.
 								</p>
-								<p><a href="elizabeth.php">View Elizabeth's story</a></p>
+								<p><a href="elizabeth.php"><b>View Elizabeth's story</b></a></p>
 							</div>
 					</div>
 				</div>
@@ -48,7 +48,7 @@
 									compared to his own survival. He didn’t see a future for himself, but that was about 
 									to change.
 								</p>
-								<p><a href="alan.php">View Alans's story</a></p>
+								<p><a href="alan.php"><b>View Alans's story</b></a></p>
 							</div>
 					</div>
 				</div>					
@@ -69,7 +69,7 @@
 									enough to eat, let alone a way to get to school. He needed to find a 
 									way out of poverty, but didn’t know where to start.			
 								</p>
-								<p><a href="daniel.php">View Daniel's story</a></p>
+								<p><a href="daniel.php"><b>View Daniel's story</b></a></p>
 							</div>
 					</div>
 				</div>
@@ -88,7 +88,7 @@
 									and he was about to give up, too. It would take a special approach to help him turn 
 									it all around.
 								</p>
-								<p><a href="dasmond.php">View Dasmond's story</a></p>
+								<p><a href="dasmond.php"><b>View Dasmond's story</b></a></p>
 							</div>
 					</div>
 				</div>

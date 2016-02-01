@@ -55,7 +55,7 @@
 			<div class="navbar-header">
 				<!-- Button for smallest screens -->
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-				<a class="navbar-brand" href="index.html"><img src="assets/images/roseLogo2.png" width="200"></a>
+				<a class="navbar-brand" href="index.php"><img src="assets/images/roseLogo2.png" width="200"></a>
 			</div>
 			
 			<!-------------------------------------
@@ -64,12 +64,12 @@
 			
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right">
-					<li><a href="challenge.html">Our Challenge</a></li>
-					<li><a href="approach.html">Our Approach</a></li>
-					<li><a href="centers.html">Our Resource Centers</a></li>
-					<li><a href="impact.html">Our Impact</a></li>
-					<li><a href="stories.html">Student Stories</a></li>
-					<li><a href="news.html">News</a></li>
+					<li><a href="challenge.php">Our Challenge</a></li>
+					<li><a href="approach.php">Our Approach</a></li>
+					<li><a href="centers.php">Our Resource Centers</a></li>
+					<li><a href="impact.php">Our Impact</a></li>
+					<li><a href="stories.php">Student Stories</a></li>
+					<li><a href="news.php">News</a></li>
 				</ul>
 			</div>
 		</div>
@@ -166,7 +166,7 @@
 												<!--label class="checkbox"><input type="checkbox"> Sign up for newsletter</label-->
 											</div>
 											<div class="col-sm-6 text-right">
-												<input class="btn btn-action" type="submit" value="Send message">
+												<input class="btn btn-action" type="submit" value="Send message"><br><br><br>
 											</div>
 										</div>
 									</form>
@@ -183,14 +183,7 @@
 							<p>
 								<table cellpadding="15">
 									<tr>
-										<td><a href="#"><i class="fa fa-twitter fa-5x" style="color: #00aced;"></i></a></td>
-										<td><a href="#"><i class="fa fa-instagram fa-5x" style="color: #125688;"></i></a></td>
-										<td><a href="#"><i class="fa fa-facebook fa-5x" style="color: #3b5998;"></i></a></td>
-									</tr>
-									<tr>
-										<td><a href="#"><i class="fa fa-youtube fa-5x" style="color: #bb0000;"></i></a></td>
-										<td><a href="#"><i class="fa fa-google fa-5x" style="color: #dd4b39;"></i></a></td>
-										<td><a href="#"><i class="fa fa-linkedin fa-5x" style="color: #007bb5;"></i></a></td>
+										<td><a href="https://www.youtube.com/channel/UCi7lF_oTI7HGwxTkC-qgdvQ" target="_blank"><i class="fa fa-youtube fa-5x" style="color: #bb0000;"></i></a></td>
 									</tr>
 								</table>
 							</p>
@@ -241,11 +234,7 @@
 						<h3 class="widget-title">Follow Us</h3>
 						<div class="widget-body">
 							<p class="follow-me-icons">
-								<a href="#"><i class="fa fa-twitter fa-2"></i></a>
-								<a href="#"><i class="fa fa-instagram fa-2"></i></a>
-								<a href="#"><i class="fa fa-facebook fa-2"></i></a>
-								<a href="#"><i class="fa fa-youtube fa-2"></i></a>
-								<a href="#"><i class="fa fa-google fa-2"></i></a>
+								<a href="https://www.youtube.com/channel/UCi7lF_oTI7HGwxTkC-qgdvQ"><i class="fa fa-youtube fa-2"></i></a>
 							</p>	
 						</div>
 					</div>
