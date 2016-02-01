@@ -36,7 +36,7 @@
 	<div class="signup">
 		<div class="container">
 			<div class="form-group">
-				<div class="col-md-5 col-sm-6 col-xs-12">
+				<div class="col-md-5 col-sm-5 col-xs-12">
 					<b>STAY CONNECTED</b> |
 					<font size="1">Sign up to receive important updates, event invitations
 					and action alerts. We honor your privacy and we'll never share your email with
@@ -45,7 +45,7 @@
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<input type="email" class="form-control" id="email" placeholder="Enter your email">
 				</div>	
-				<div class="col-md-3 col-sm-2 col-xs-12">
+				<div class="col-md-3 col-sm-3 col-xs-12">
 					<button type="button" style="height: 35px;" class="btn btn-danger">Sign Up</button>
 				</div>
 			</div>
@@ -53,7 +53,7 @@
 	</div>
 
 	<!-- Fixed navbar -->
-	<div class="navbar navbar-inverse headroom" id="sticker"> <!-- navbar-fixed-top -->
+	<div class="navbar navbar-inverse" id="sticker"> <!-- navbar-fixed-top -->
 		<div class="container">
 			<div class="navbar-header">
 				<!-- Button for smallest screens -->

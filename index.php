@@ -1,7 +1,7 @@
 ﻿<?php include('inc/header.php'); ?>
 			
 			<div class="row">
-				<div class="col-md-4 col-sm-6 highlight">
+				<div class="col-lg-4 highlight clearfix">
 					<h4><B>A STRONGER COMMUNITY</B></h4>
 					<div class="h-body">
 						<p>
@@ -13,10 +13,10 @@
 						</p>
 					</div>
 					
-					<div class="col-md-6 col-sm-6 highlight featured-student-story">
+					<div class="col-lg-6 col-sm-4 highlight featured-student-story">
 					</div>
 					
-					<div class="col-md-6 col-sm-6 highlight">
+					<div class="col-md-6 col-sm-8 highlight ">
 						<h4><b>DANIEL</b></h4>
 						<div class="h-body">
 							<p>
@@ -33,7 +33,7 @@
 					
 				</div>
 				
-				<div class="col-md-8 col-sm-6 highlight">
+				<div class="col-lg-8 highlight">
 					
 					<div class="videoWrapper">
 						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mCH6-NCnIg4?rel=0&amp;showinfo=0" width='100%' height='349'></iframe>

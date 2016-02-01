@@ -37,8 +37,8 @@
 			</div> <!-- /row  -->
 			
 			<div class="row" >
-				<div class="col-md-12 col-sm-6 highlight">
-					<h4><B>THE TRUE COST OF EVERY DROPOUT</B></h4>
+				<div class="col-md-12 col-sm-12 highlight">
+					<h4 id="cost-title"><B>THE TRUE COST OF EVERY DROPOUT</B></h4>
 				</div>
 				
 				<!-- ICON 1 -->
@@ -143,9 +143,10 @@
 									<p>in employment¹²</p>
 								</div>
 							</div>	
-
-							<img class="challenge-costs" src="<?php echo BASE_URL;?>assets/images/46billion.svg">
-							<img class="challenge-costs" src="<?php echo BASE_URL;?>assets/images/1billion.svg">
+							<div class="col-xs-12">
+								<img class="challenge-costs" src="<?php echo BASE_URL;?>assets/images/46billion.svg">
+								<img class="challenge-costs" src="<?php echo BASE_URL;?>assets/images/1billion.svg">
+							</div>
 					</div>		
 				</div>
 			</div>

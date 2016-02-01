@@ -17,7 +17,7 @@
 			
 			<div class="row">
 				<!-- ELIZABETH -->
-				<div class="col-xs-12 col-sm-8 highlight text-left">
+				<div class="col-xs-12 col-md-8 highlight text-left">
 					<div class="h-body ">
 						<p>
 						“When I was in school, the teacher would be talking to the class, but I didn’t feel like she was talking 
@@ -38,7 +38,7 @@
 				</div>
 
 				
-				<div class="col-xs-12 col-sm-4 highlight text-left">
+				<div class="col-xs-12 col-md-4 highlight text-left">
 					<div class="h-body ">
 						<img src="<?php echo BASE_URL;?>assets/images/dasmond-story.svg">
 					</div>
@@ -48,7 +48,7 @@
 
 	
 			<div class="row" >
-				<div class="col-md-8 col-sm-6 highlight text-left">
+				<div class="col-md-8 col-sm-12 highlight text-left">
 					<h4><B>A NEW APPROACH</B></h4>
 					<div class="h-body">
 						<p>
@@ -66,7 +66,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-6 highlight text-left">
+				<div class="col-md-4 col-sm-12 highlight text-left">
 					<h4><B></B></h4>
 					<div class="h-body">
 						<p>
@@ -77,7 +77,7 @@
 			</div> <!-- /row  -->
 			
 			<div class="row" >
-				<div class="col-md-5 col-sm-6 highlight text-left">
+				<div class="col-md-5 col-sm-12 highlight text-left">
 					<div class="h-body">
 						<p>
 						<br><h2><i>“…before I knew it, I was reading entire novels by myself.”</i></h2>

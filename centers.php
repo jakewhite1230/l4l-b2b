@@ -1,7 +1,7 @@
 ﻿<?php include ('inc/header.php'); ?>
 			
 			<div class="row">
-				<div class="col-md-12 col-sm-6 highlight">
+				<div class="col-xs-12 highlight">
 					<h4><B>OUR RESOURCE CENTERS</B></h4>
 					<div class="h-body">
 						<p>
@@ -52,10 +52,10 @@
 					</p>
 				</div>
 				
-				<div class="col-md-3 col-sm-6 highlight text-left well">
+				<div class="col-md-3 col-sm-12 highlight text-left well">
 					<h4><b>LEARNING ON THE GO</b></h4>
 					<div class="h-body ">
-						<img src="./assets/images/personalized.jpg" width="100%">
+						<img src="./assets/images/mobile-learning.jpg" width="100%">
 						<p style="margin-top:15px;">
 							At-risk students in rural areas often have difficulty finding transportation to get to school. 
 							With our Mobile Learning Center, we provide local access to a results-oriented, personalized 
@@ -147,9 +147,9 @@
 			
 			<div class="row">
 			
-				<div class="col-md-12 col-sm-6 highlight">
+				<div class="col-md-12 col-sm-12 highlight">
 					<h4><B>OUR PARTNERSHIPS</B></h4>
-						<div class="col-md-6 col-sm-6 highlight">
+						<div class="col-md-6 col-sm-12 highlight">
 							<div class="h-body ">
 							<h4>EDUCATION</h4>
 								<p>
@@ -176,7 +176,7 @@
 							</div>
 						</div>
 						
-						<div class="col-md-6 col-sm-6 highlight">
+						<div class="col-md-6 col-sm-12 highlight">
 							<div class="videoWrapper">
 								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KrzBwF_3FqU?rel=0&amp;showinfo=0" width='100%' height='349'></iframe>
 							</div>

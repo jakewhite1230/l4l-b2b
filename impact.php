@@ -110,7 +110,7 @@
 			
 			<div class="row">
 			
-				<div class="col-md-12 col-sm-6 highlight">
+				<div class="col-md-12 col-sm-12 highlight">
 					<h4><B>CHANGING THEIR STORIES FOR GOOD</B></h4>
 						<div class="col-md-6 col-sm-6 highlight">
 							<div class="h-body ">

@@ -17,7 +17,7 @@
 			
 			<div class="row">
 				<!-- ELIZABETH -->
-				<div class="col-xs-12 col-sm-8 highlight text-left">
+				<div class="col-xs-12 col-md-8 highlight text-left">
 					<div class="h-body ">
 						<p>
 						Daniel is an inquisitive and dedicated student with a strong work ethic and solid career plan. But his 
@@ -38,7 +38,7 @@
 				</div>
 				
 				
-				<div class="col-xs-12 col-sm-4 highlight text-left">
+				<div class="col-xs-12 col-md-4 highlight text-left">
 					<div class="h-body ">
 						<img src="<?php echo BASE_URL;?>assets/images/daniel-story.svg">
 					</div>
@@ -48,7 +48,7 @@
 
 	
 			<div class="row" >
-				<div class="col-md-8 col-sm-6 highlight text-left">
+				<div class="col-md-8 col-sm-12 highlight text-left">
 					<h4><B>A HELPING HAND</B></h4>
 					<div class="h-body">
 						<p>
@@ -66,7 +66,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-6 highlight text-left">
+				<div class="col-md-4 col-sm-12 highlight text-left">
 					<h4><B></B></h4>
 					<div class="h-body">
 						<p>
@@ -77,7 +77,7 @@
 			</div> <!-- /row  -->
 			
 			<div class="row" >
-				<div class="col-md-5 col-sm-6 highlight text-left">
+				<div class="col-md-5 col-sm-12 highlight text-left">
 					<div class="h-body">
 						<p>
 						<br><h2><i>“Now I have a real chance at a future.”</i></h2>

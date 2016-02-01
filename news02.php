@@ -1,13 +1,17 @@
 ﻿<?php include('inc/header.php');?>
 			
 			<div class="row">
-				<div class="col-md-12 col-sm-6 highlight">
+				<div class="col-md-12 col-sm-12 highlight">
+				<ol class="breadcrumb">
+				  <li><a href="news.php">News</a></li>
+				  <li class="active">Learn4Life Partners with United Way</li>
+				</ol>
 					<h4 class="blue-font"><a href="news.php"><B>NEWS FEATURE</B></a></h4>
 					<div class="h-body">
 						<p>
 							21 NOV 2015
 						</p>
-							<div class="col-md-8 col-sm-6 highlight">
+							<div class="col-md-8 col-sm-12 highlight">
 							<p class="blue-font news-title">
 							<b>Learn4Life Partners with United Way to End Veteran Homelessness</B>
 							</p>
@@ -39,7 +43,7 @@
 							we serve,” said Skip Hansen, Executive Vice President of Learn4Life. “And that’s something we can all feel good about.”
 							</p>
 							</div>
-							<div class="col-md-4 col-sm-6 highlight">
+							<div class="col-md-4 col-sm-12 highlight">
 								<img src="./assets/images/homewalk.jpg">
 							</div>
 					</div>

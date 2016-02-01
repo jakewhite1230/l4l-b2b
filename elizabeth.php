@@ -17,7 +17,7 @@
 			
 			<div class="row">
 				<!-- ELIZABETH -->
-				<div class="col-xs-12 col-sm-8 highlight text-left">
+				<div class="col-xs-12 col-md-8 highlight text-left">
 					<div class="h-body ">
 						<p>
 						“I wasn’t the type of girl to get into trouble,” Elizabeth explains. “I just never thought this 
@@ -40,7 +40,7 @@
 				</div>
 				
 				
-				<div class="col-xs-12 col-sm-4 highlight text-left">
+				<div class="col-xs-12 col-md-4 highlight text-left">
 					<div class="h-body ">
 						<img src="<?php echo BASE_URL;?>assets/images/elizabeth-story.svg">
 					</div>
@@ -50,7 +50,7 @@
 
 	
 			<div class="row" >
-				<div class="col-md-8 col-sm-6 highlight text-left">
+				<div class="col-md-8 col-sm-12 highlight text-left">
 					<h4><B>A LITTLE INSPIRATION</B></h4>
 					<div class="h-body">
 						<p>
@@ -68,7 +68,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-6 highlight text-left">
+				<div class="col-md-4 col-sm-12 highlight text-left">
 					<h4><B></B></h4>
 					<div class="h-body">
 						<p>
@@ -79,7 +79,7 @@
 			</div> <!-- /row  -->
 			
 			<div class="row" >
-				<div class="col-md-5 col-sm-6 highlight text-left">
+				<div class="col-md-5 col-sm-12 highlight text-left">
 					<div class="h-body">
 						<p>
 						<br><h2><i>“Learn4Life helped me show her that anything is possible. They changed my story for the better.”</i></h2>

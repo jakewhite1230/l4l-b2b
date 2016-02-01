@@ -1,13 +1,17 @@
 ﻿<?php include('inc/header.php');?>
 			
 			<div class="row">
-				<div class="col-md-12 col-sm-6 highlight">
+				<div class="col-md-12 col-sm-12 highlight">
+				<ol class="breadcrumb">
+				  <li><a href="news.php">News</a></li>
+				  <li class="active">Learn4Life Promotes STEM Disciplines</li>
+				</ol>
 					<h4><B>NEWS FEATURE</B></h4>
 					<div class="h-body">
 						<p>
 							16 NOV 2015
 						</p>
-							<div class="col-md-8 col-sm-6 highlight">
+							<div class="col-md-8 col-sm-12 highlight">
 							<p class="blue-font news-title">
 							
 							<b>Learn4Life Promotes STEM Disciplines at the SoCal Maker Convention</B>
@@ -51,8 +55,8 @@
 							improve the quality and level of STEM education in California.
 							</p>
 							</div>
-							<div class="col-md-4 col-sm-6 highlight">
-								<img src="./assets/images/makercon.jpg" width="100%" style="border-radius: 15px;">
+							<div class="col-md-4 col-sm-12 highlight">
+								<img src="./assets/images/makercon.jpg">
 							</div>
 					</div>
 				</div>

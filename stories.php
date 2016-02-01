@@ -1,7 +1,7 @@
 ﻿<?php include('inc/header.php'); ?>
 			
 			<div class="row">
-				<div class="col-md-12 col-sm-6 highlight">
+				<div class="col-md-12 highlight">
 					<h4><B>STUDENT STORIES</B></h4>
 					<div class="h-body">
 						<p>
